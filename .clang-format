@@ -1,0 +1,12 @@
+---
+BasedOnStyle: LLVM
+IndentWidth: 8
+ColumnLimit: 120
+UseTab: Always
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: None
+IndentCaseLabels: false
+ForEachMacros:
+  - 'LIST_FOREACH'
+  - 'ELF_FOREACH_PHDR_OFF'
+  - 'TAILQ_FOREACH'
